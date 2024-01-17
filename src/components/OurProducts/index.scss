@@ -1,0 +1,133 @@
+.ourProducts {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+  .ourProductsAll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    
+    .popular {
+        text-align: center;
+        font-size: 13px;
+        color: #adb5bd;
+    }
+    .head {
+        text-align: center;
+        font-size: 40px;
+    }
+    .about {
+        text-align: center;
+        font-size: 18px;
+        color: #808080;
+        max-width: 540px;
+        margin: auto;
+    }
+    .sort{
+        text-align: center;
+        display: flex;
+        gap: 20px;
+        button{
+            width: 104px;
+            height: 51px;
+            border: 2px solid black;
+            background-color: transparent;
+        cursor: pointer;
+
+        }
+
+    }
+    .cards {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        width: 60%;
+        justify-content: center;
+        
+      .pages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        .image {
+            width: 349px;
+            height: 349px;
+            img{
+                width: 349px;
+                height: 349px;
+            }
+            
+        }
+        .name {
+            font-size: 20px;
+        }
+        .icons{
+            display: flex;
+            gap: 50px;
+            .star{
+                display: flex;
+                gap: 10px;
+        cursor: pointer;
+
+                i{
+                    color: #f89d13;
+                }
+            }
+            .heart{
+                display: flex;
+                gap: 10px;
+        cursor: pointer;
+
+                i:hover{
+                    color: red;
+                    transition: 300ms;
+                }
+                
+                
+            }
+        }
+        .desc {
+            width: 301px;
+            font-size: 16px;
+            text-align: center;
+            color: #808080;
+        }
+        .btn{
+            display: flex;
+            gap: 20px;
+            .cart{
+                width: 77px;
+                height: 34px;
+                background-color: black;
+                color: white;
+                font-size: 16px;
+        cursor: pointer;
+
+
+            }
+            .view{
+                width: 77px;
+                height: 34px;
+                background-color: white;
+                color: black;
+                border: 2px solid black;
+                font-size: 16px;
+        cursor: pointer;
+
+
+            }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+    .sort {
+      display: flex;
+      flex-direction: column;
+    }
+  }

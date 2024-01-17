@@ -1,0 +1,122 @@
+.footer {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+  .foot {
+    width: 70%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+    .top {
+      display: flex;
+      gap: 70px;
+      justify-content: center;
+      .aboutUS{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h3{
+            font-size: 17px;
+            line-height: 20px;
+            color: black;
+            text-align: left;
+            
+
+        }
+        span{
+            color: #737373;
+            font-size: 15px;
+            width: 286px;
+        }
+      }
+      .quickLinks{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h3{
+            font-size: 17px;
+            line-height: 20px;
+            color: black;
+            text-align: left;
+        }
+        li{
+            color: #999999;
+            font-size: 17px;
+            line-height: 28px;
+        cursor: pointer;
+
+        }
+
+      }
+      .followUs{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h3{
+            font-size: 17px;
+            line-height: 20px;
+            color: black;
+            text-align: left;
+        }
+        .icon{
+            display: flex;
+            gap: 30px;
+            color: #999999;
+            i{
+        cursor: pointer;
+
+            }
+        }
+
+      }
+      .featuredProduct{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h3{
+            font-size: 17px;
+            line-height: 20px;
+            color: black;
+            text-align: left;
+        }
+        img{
+width: 285px;
+height: 330px;
+cursor: pointer;
+ 
+        }
+        .name{
+font-size: 22px;
+        }
+        .price{
+ font-size: 18px;
+        }
+        .btn{
+            width: 129px;
+            height: 34px;
+            background-color: black;
+            color: white;
+            border: none;
+        cursor: pointer;
+
+        }
+
+      }
+    }
+    .bottom {
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+}
+@media screen and (max-width: 1050px) {
+    .top {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  

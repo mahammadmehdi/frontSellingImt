@@ -1,0 +1,115 @@
+.aboutUs {
+    width: 100%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+  .aboutUsAll {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left {
+        position: relative;
+      .image {
+        max-width:  760px;
+        min-height: 632px;
+      }
+      .personAbout {
+        max-width: 455px;
+        height: 124px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #46ddb0;
+        right: -3%;
+        bottom: -2%;
+        justify-content: center;
+        align-items: start;
+        padding-left: 4%;
+        .name {
+            max-width: 415px;
+            height: 57px;
+            font-size: 48px;
+            color: white;
+        }
+        .time {
+            font-size: 16px;
+            max-width: 415px;
+            color: white;
+            
+        }
+      }
+    }
+    .right {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      .company {
+        font-size: 16px;
+        color: #808080;
+      }
+      .head {
+        font-size: 40px;
+      }
+      .about {
+        width: 255px;
+        font-size: 18px;
+        color: #808080;
+        line-height: 28px;
+      }
+      .btn {
+        width: 124px;
+        height: 34px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1750px) {
+    .image {
+      width: 600px;
+      min-height: 432px;
+    }
+  }
+
+  @media screen and (max-width: 1490px) {
+    .image {
+      width: 500px;
+      height: 300px;
+    }
+  }
+  @media screen and (max-width: 1290px) {
+    .image {
+      width: 400px;
+      height: 200px !important;
+    }
+    .personAbout{
+        width: 300px;
+    }
+    .name{
+        width: 215px !important;
+        font-size: 25px !important;
+        
+    }
+  }
+  @media screen and (max-width: 1490px) {
+    .aboutUsAll {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+  @media screen and (max-width: 1490px) {
+    .image {
+      width: 200px !important;
+      height: 100px !important;
+    }
+    .personAbout{
+        width: 200px;
+    }
+  } 
+  

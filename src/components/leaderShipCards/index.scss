@@ -1,0 +1,43 @@
+.leaderShipCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    .image{
+width: 349px;
+height: 349px;
+    }
+    .name{
+        font-size: 18px;
+        color: #808080;
+
+    }
+    .job{
+        font-size: 12px;
+        color: #cccccc;
+
+    }
+    .about{
+        font-size: 16px;
+        color: #808080;
+        max-width: 349px;
+        text-align: center;
+
+    }
+    .icon{
+        display: flex;
+        gap: 10px;
+        i{
+            background-color: #777777;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        cursor: pointer;
+
+        }
+
+    }
+}

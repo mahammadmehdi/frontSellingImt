@@ -1,0 +1,46 @@
+.navigation {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+ 
+  background-color: white;
+  .navbar {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    .left {
+        cursor: pointer;
+      .logo {
+        font-size: 40px;
+      }
+      .dot {
+        font-size: 40px;
+        color: #f16821;
+      }
+    }
+    .right {
+        .bars{
+            display: none;
+        }
+      .pages {
+        display: flex;
+        padding-top: 2%;
+        gap: 50px;
+        align-items: baseline;
+        li{
+            font-size: 20px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1190px) {
+    .bars {
+      display: block !important;
+    }
+    .pages{
+        display: none !important;
+    }
+  }

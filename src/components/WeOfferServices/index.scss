@@ -1,0 +1,67 @@
+.weOfferServices {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  .weOfferServicesAll {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    .services {
+      color: #adb5bd;
+      letter-spacing: 2.6px;
+      font-size: 13px;
+      text-align: center;
+    }
+    .head {
+      font-size: 40px;
+      color: black;
+      text-align: center;
+    }
+    .cards {
+      display: flex;
+      justify-content: center;
+      width: 70%;
+      gap: 30px;
+      margin: auto;
+      flex-wrap: wrap;
+      .card {
+        display: flex;
+        gap: 10px;
+        .icon {
+          i {
+            color: #f16821;
+            font-size: 48px;
+          }
+        }
+        .text {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          .name {
+            font-size: 20px;
+            color: #808080;
+          }
+          .about {
+            font-size: 20px;
+            color: #808080;
+            width: 277px;
+          }
+          .learn {
+            font-size: 16px;
+            color: #f16821;
+        cursor: pointer;
+
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 430px) {
+    .card {
+      display: flex;
+      flex-direction: column;
+    }
+  }
