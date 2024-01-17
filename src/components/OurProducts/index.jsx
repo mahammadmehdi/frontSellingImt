@@ -42,7 +42,7 @@ function OurProducts() {
             }
           })
           .map((x) => (
-            <ul className="pages">
+            <ul key={x._id} className="pages">
               <li className="image"><img src={x.image}  /></li>
               <li className="name">{x.name}</li>
               <div className="icons">
@@ -51,7 +51,7 @@ function OurProducts() {
                 <span>5.0</span>
                 </div>
                 <div onClick={()=>addWishlist(x)} className="heart">
-                <i  class={`fa-solid fa-heart ${isWishlist(x) ?"red" : ""}`}></i>
+                <i  className={`fa-solid fa-heart ${isWishlist(x) ?"red" : ""}`}></i>
                 <span>29</span>
                 </div>
               </div>

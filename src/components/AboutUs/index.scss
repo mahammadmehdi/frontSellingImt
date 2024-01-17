@@ -12,7 +12,7 @@
         position: relative;
       .image {
         max-width:  760px;
-        min-height: 632px;
+        height: 632px;
       }
       .personAbout {
         max-width: 455px;
@@ -72,7 +72,7 @@
 @media screen and (max-width: 1750px) {
     .image {
       width: 600px;
-      min-height: 432px;
+      height: 432px;
     }
   }
 
@@ -103,13 +103,22 @@
       gap: 30px;
     }
   }
-  @media screen and (max-width: 1490px) {
+  @media screen and (max-width: 490px) {
     .image {
       width: 200px !important;
       height: 100px !important;
     }
     .personAbout{
-        width: 200px;
+        width: 100px;
+        height: 30px !important;
+    }
+    .name{
+        width: 100px !important;
+        font-size: 13px !important;
+    }
+    .time{
+        width: 100px !important;
+        font-size: 10px !important;
     }
   } 
   

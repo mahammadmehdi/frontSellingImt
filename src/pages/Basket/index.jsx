@@ -9,7 +9,7 @@ function Basket() {
     <div className="basketPage">
       <div className="card">
         {basket.map((x) => (
-          <ul className="pages">
+          <ul key={x._id} className="pages">
             <li className="image">
               <img src={x.image} />
             </li>

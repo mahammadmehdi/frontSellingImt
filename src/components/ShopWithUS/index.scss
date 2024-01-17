@@ -2,6 +2,7 @@
   background-image:
   linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),
   url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg.webp");
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,3 +52,18 @@
     }
   }
 }
+@media screen and (max-width: 900px) {
+    .header {
+      font-size: 60px !important;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .header {
+      font-size: 40px !important;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .header {
+      font-size: 20px !important;
+    }
+  }

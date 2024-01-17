@@ -7,7 +7,7 @@ function Wishlist() {
   return (
     <div className='wishlistPage'>
         <div className="card">
-            {wishlist.map((x)=><ul className='pages'>
+            {wishlist.map((x)=><ul key={x._id} className='pages'>
                 <li className='image'><img src={x.image}  /></li>
                 <li className='name'>{x.name}</li>
                 <li className='desc'>{x.desc}</li>

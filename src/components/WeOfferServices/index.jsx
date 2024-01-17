@@ -11,7 +11,7 @@ function WeOfferServices() {
 
           <div className="card">
             <div className="icon">
-            <i class="fa-solid fa-circle-half-stroke"></i>
+            <i className="fa-solid fa-circle-half-stroke"></i>
             </div>
             <div className="text">
                 <div className="name">Business Consulting</div>
@@ -21,7 +21,7 @@ function WeOfferServices() {
           </div>
           <div className="card">
             <div className="icon">
-            <i class="fa-solid fa-delete-left"></i>
+            <i className="fa-solid fa-delete-left"></i>
             </div>
             <div className="text">
             <div className="name">Market Analysis</div>
@@ -30,7 +30,7 @@ function WeOfferServices() {
             </div>
           </div>
           <div className="card">
-            <div className="icon"><i class="fa-solid fa-clock"></i></div>
+            <div className="icon"><i className="fa-solid fa-clock"></i></div>
             <div className="text">
             <div className="name">Financial Management</div>
                 <div className="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</div>
@@ -38,7 +38,7 @@ function WeOfferServices() {
             </div>
           </div>
           <div className="card">
-            <div className="icon"><i class="fa-solid fa-thumbs-up"></i></div>
+            <div className="icon"><i className="fa-solid fa-thumbs-up"></i></div>
             <div className="text">
             <div className="name">User Monitoring</div>
                 <div className="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</div>
@@ -46,7 +46,7 @@ function WeOfferServices() {
             </div>
           </div>
           <div className="card">
-            <div className="icon"><i class="fa-solid fa-briefcase"></i></div>
+            <div className="icon"><i className="fa-solid fa-briefcase"></i></div>
             <div className="text">
             <div className="name">Seller Consulting</div>
                 <div className="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</div>
@@ -54,7 +54,7 @@ function WeOfferServices() {
             </div>
           </div>
           <div className="card">
-            <div className="icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+            <div className="icon"><i className="fa-solid fa-cloud-arrow-up"></i></div>
             <div className="text">
             <div className="name">Financial Investment</div>
                 <div className="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</div>

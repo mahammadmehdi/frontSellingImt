@@ -84,7 +84,7 @@ function AddPages() {
       {table
         .filter((x) => x.name.toLowerCase().includes(search.toLowerCase()))
         .map((x) => (
-          <table>
+          <table key={x._id}>
             <tr>
               <th>Image</th>
               <th>Name</th>
@@ -98,7 +98,7 @@ function AddPages() {
               <td>{x.name}</td>
               <td>{x.desc}</td>
               <td>
-                <i class="fa-solid fa-trash"></i>
+                <i className="fa-solid fa-trash"></i>
               </td>
             </tr>
           </table>

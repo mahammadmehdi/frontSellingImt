@@ -9,10 +9,10 @@ function LeaderShipCards({image,name,job}) {
         <div className="job">{job}</div>
         <div className="about">Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</div>
         <div className="icon">
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-linkedin-in"></i>
-        <i class="fa-brands fa-instagram"></i>
+        <i className="fa-brands fa-facebook-f"></i>
+        <i className="fa-brands fa-twitter"></i>
+        <i className="fa-brands fa-linkedin-in"></i>
+        <i className="fa-brands fa-instagram"></i>
         </div>
     </div>
   )

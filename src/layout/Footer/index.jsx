@@ -18,10 +18,10 @@ function Footer() {
           </div>
           <div className="followUs">
             <h3>FOLLOW US</h3>
-           <div className="icon"> <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
-            <i class="fa-brands fa-instagram"></i></div>
+           <div className="icon"> <i className="fa-brands fa-facebook-f"></i>
+            <i className="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-linkedin-in"></i>
+            <i className="fa-brands fa-instagram"></i></div>
           </div>
           <div className="featuredProduct">
             <h3>FEATURED PRODUCT</h3>
